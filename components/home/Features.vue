@@ -47,11 +47,11 @@ const features = computed(() => [
       </p>
     </div>
 
-    <div class="grid gap-8 md:gap-16 sm:grid-cols-2 md:grid-cols-3">
+    <div class="grid gap-8 md:gap-8 sm:grid-cols-2 md:grid-cols-3">
       <div
         v-for="item in features"
         :key="item.title"
-        class="flex items-start gap-4"
+        class="flex bg-neutral-50 dark:bg-neutral-900 shadow-foreground/5 shadow-2xl p-8 items-center rounded-3xl gap-4"
       >
         <div class="w-8 h-8 p-2 mt-1 bg-black rounded-full shrink-0">
           <component
